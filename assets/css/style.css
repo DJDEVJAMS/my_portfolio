@@ -1,0 +1,253 @@
+.text {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+a {
+color:white;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 3em;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.headertitle {
+  background-color: rgb(33, 54, 98);
+  display: block;
+  width: 100%;
+}
+
+header nav {
+  padding-top: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
+  float: right;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-top: 10px;
+  margin-right: 20px;
+  text-align: right;
+  color: white;
+}
+
+nav ul:visited {
+  color: white;
+  text-decoration: underline;
+}
+
+nav ul:hover a:active {
+  color: white;
+  text-decoration: underline;
+}
+
+nav li {
+  display: inline;
+  margin-right: 25px;
+}
+
+ul {
+  text-align: right;
+}
+
+#backblu {
+  height: 200px;
+  width: 100%;
+}
+
+@media screen and (max-width: 899px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  #backblu {
+    height: 150px;
+  }
+
+  #profilepic {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  #profilepic {
+    width: 80%;
+  }
+}
+
+#coolstuff {
+  font-size: 30pt;
+}
+
+.profileimg {
+  justify-content: center;
+}
+
+#profilepic {
+  width: 20%;
+  display: grid;
+}
+
+@media screen and (max-width: 899px) {
+  img {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#cool-subtitle h1 {
+  text-align: right;
+  margin-right: 0.5rem;
+}
+
+#aboutmeP {
+  Width: 600px;
+  Height:200px;
+  margin: 10px;
+  border-right: 50px;
+  text-align: left;
+  font-size: 1em;
+  block-size: 20rem;
+  margin-left: 25rem;
+  border-left-width: 2px;
+  border-left: 10px solid navy;
+  padding: 10px;
+}
+
+@media screen and (max-width: 899px) {
+  #aboutmeP {
+    margin-left: 0;
+    font-size: 0.8em;
+    text-align: left;
+  }
+
+  .flexbox-container {
+    padding: 1rem 1rem;
+  }
+}
+
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-end; */
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-left: 25rem;
+  border-left-width: 2px;
+  border-left: 10px solid navy;
+  gap: 10px
+}
+
+.flexbox-item {
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: #dfdfdf;
+}
+
+#horiseonpic {
+  padding: 1rem;
+}
+/* .ptext{
+  color: rgb(33, 54, 98);
+
+
+} */
+
+
+.worktitle {
+  text-align: center;
+  position: fixed;
+  color: rgb(33, 54, 98);
+}
+
+.flexbox-item-1 {
+  min-height: 400px;
+
+  width: 400px;
+  margin: 10px;
+  padding: 10%;
+  border: 3px;
+  background-image: url("https://djdevjams.github.io/Horiseon_Refactor/");
+}
+
+.flexbox-item-2,
+.flexbox-item-3,
+.flexbox-item-4,
+.flexbox-item-5 {
+  min-height: 300px;
+}
+
+@media screen and (max-width: 899px) {
+  .flexbox-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .flexbox-item {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .flexbox-item {
+    width: 100%;
+  }
+}
+
+.left {
+  display: inline-block;
+}
+
+.sect .chap {
+  display: block;
+  width: 100%;
+  font-size: 1.5em;
+  margin-left: 0.5rem;
+  font-weight: bold;
+  color: rgb(33, 54, 98);
+}
+
+aside {
+  font-size: 1em;
+  display: inline;
+  border-right: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contactparts {
+
+  list-style-type: none;
+  background-color: rgb(33, 54, 98);
+  color: white;
+
+}
