@@ -35,7 +35,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ----
 
-Static site link - https://djdevjams.github.io/Horiseon_Refactor/
+Static site link - https://djdevjams.github.io/my_portfolio/
 
 Screenshot of site
 <img src="./assets/images/completed_Horiseon_Refactor_index.html.png" alt="refactored site screenshot">
