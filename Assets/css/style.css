@@ -4,6 +4,11 @@
   font-weight: bold;
   padding: 10px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+a {
+color:white;
 }
 
 header h1 {
@@ -38,12 +43,12 @@ nav ul {
   color: white;
 }
 
-nav, ul:visited {
-  color: blue;
+nav ul:visited {
+  color: white;
   text-decoration: underline;
 }
 
-nav, ul:hover a:active {
+nav ul:hover a:active {
   color: white;
   text-decoration: underline;
 }
@@ -96,6 +101,10 @@ ul {
   }
 }
 
+#coolstuff {
+  font-size: 30pt;
+}
+
 .profileimg {
   justify-content: center;
 }
@@ -114,7 +123,7 @@ ul {
 
 #cool-subtitle h1 {
   text-align: right;
-  font-size: 1.5em;
+  margin-right: 0.5rem;
 }
 
 #aboutmeP {
@@ -154,11 +163,20 @@ ul {
 }
 
 .flexbox-item {
-flex-wrap: wrap;
+  flex-wrap: wrap;
   width: 300px;
   margin: 10px;
   border: 3px solid #333;
   background-color: #dfdfdf;
+}
+
+#horiseonpic {
+  padding: 0.5rem;
+}
+
+.worktitle {
+  text-align: center;
+  position: fixed;
 }
 
 .flexbox-item-1 {
@@ -166,12 +184,15 @@ flex-wrap: wrap;
 
   width: 400px;
   margin: 10px;
-  padding:10%;
+  padding: 10%;
   border: 3px;
   background-image: url("https://djdevjams.github.io/Horiseon_Refactor/");
 }
 
-.flexbox-item-2, .flexbox-item-3, .flexbox-item-4, .flexbox-item-5 {
+.flexbox-item-2,
+.flexbox-item-3,
+.flexbox-item-4,
+.flexbox-item-5 {
   min-height: 300px;
 }
 
@@ -201,6 +222,9 @@ flex-wrap: wrap;
   display: block;
   width: 100%;
   font-size: 1.5em;
+  margin-left: 0.5rem;
+  font-weight: bold;
+  color: rgb(33, 54, 98);
 }
 
 aside {
@@ -235,7 +259,7 @@ li {
 .contactparts {
 
   list-style-type: none;
-  background-color:rgb(33, 54, 98);
-  color:white;
+  background-color: rgb(33, 54, 98);
+  color: white;
 
 }
