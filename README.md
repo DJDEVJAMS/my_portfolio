@@ -38,7 +38,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Static site link - https://djdevjams.github.io/my_portfolio/
 
 Screenshot of site
-<img src="./assets/images/completed_Horiseon_Refactor_index.html.png" alt="refactored site screenshot">
+<img src="./assets/images/djdevjams.github.io_my_portfolio_.png" alt="my portfolio site screenshot">
 
 ----
 
@@ -52,8 +52,8 @@ All text is ledgible. : Verified
 All images are visable and labed with alt text. : Verified
 
 The following image shows the web application's appearance and functionality:
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.]
+![My Portfolio includes a navigation bar, a header image, and cards with text and images at the bottom of the page.]
 
 Functionality:
 
-<img src="./assets/images/Horiseon.gif" alt="function test for site">
+<img src="./assets/images/my_portfolio.gif" alt="function test for site">

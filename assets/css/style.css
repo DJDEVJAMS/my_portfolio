@@ -11,6 +11,7 @@ a {
 color:white;
 }
 
+/* Header Section */
 header h1 {
   display: inline-block;
   font-size: 3em;
@@ -35,6 +36,11 @@ header nav {
   color: white;
 }
 
+#backblu {
+  height: 200px;
+  width: 100%;
+}
+/* Menu Bar Sectoin */
 nav ul {
   list-style-type: none;
   padding-top: 10px;
@@ -62,10 +68,7 @@ ul {
   text-align: right;
 }
 
-#backblu {
-  height: 200px;
-  width: 100%;
-}
+
 
 @media screen and (max-width: 899px) {
   header h1 {
@@ -90,6 +93,8 @@ ul {
     width: 50%;
   }
 }
+
+/* Media Screen for top half*/
 
 @media screen and (max-width: 599px) {
   header h1 {
@@ -126,20 +131,21 @@ ul {
   margin-right: 0.5rem;
 }
 
+/* About Me Section */
 #aboutmeP {
   Width: 600px;
-  Height:200px;
   margin: 10px;
   border-right: 50px;
   text-align: left;
   font-size: 1em;
-  block-size: 20rem;
+  block-size: 10rem;
   margin-left: 25rem;
   border-left-width: 2px;
   border-left: 10px solid navy;
   padding: 10px;
 }
 
+/* Media screen for paragraphs and boxes*/
 @media screen and (max-width: 899px) {
   #aboutmeP {
     margin-left: 0;
@@ -175,11 +181,6 @@ ul {
 #horiseonpic {
   padding: 1rem;
 }
-/* .ptext{
-  color: rgb(33, 54, 98);
-
-
-} */
 
 
 .worktitle {
@@ -223,9 +224,7 @@ ul {
   }
 }
 
-.left {
-  display: inline-block;
-}
+/* left title sections */
 
 .sect .chap {
   display: block;
@@ -243,6 +242,8 @@ aside {
   padding: 10px;
   margin-bottom: 10px;
 }
+
+/* contavt section */
 
 .contactparts {
 
