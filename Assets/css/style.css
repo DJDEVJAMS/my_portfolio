@@ -129,7 +129,7 @@ ul {
 #aboutmeP {
   margin: 10px;
   border-right: 50px;
-  text-align: right;
+  text-align: left;
   font-size: 1em;
   block-size: 20rem;
   margin-left: 25rem;
@@ -171,12 +171,19 @@ ul {
 }
 
 #horiseonpic {
-  padding: 0.5rem;
+  padding: 1rem;
 }
+/* .ptext{
+  color: rgb(33, 54, 98);
+
+
+} */
+
 
 .worktitle {
   text-align: center;
   position: fixed;
+  color: rgb(33, 54, 98);
 }
 
 .flexbox-item-1 {
