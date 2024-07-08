@@ -1,5 +1,3 @@
-
-
 .text {
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 20px;
@@ -10,7 +8,7 @@
 
 header h1 {
   display: inline-block;
-  font-size: 50pt;
+  font-size: 3em;
   color: white;
 }
 
@@ -21,16 +19,15 @@ html {
 .headertitle {
   background-color: rgb(33, 54, 98);
   display: block;
+  width: 100%;
 }
-
 
 header nav {
   padding-top: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 15pt;
+  font-size: 1em;
   float: right;
-  color:white;
-
+  color: white;
 }
 
 nav ul {
@@ -38,25 +35,69 @@ nav ul {
   padding-top: 10px;
   margin-right: 20px;
   text-align: right;
-  /* display: inline */
+  color: white;
+}
+
+nav, ul:visited {
+  color: blue;
+  text-decoration: underline;
+}
+
+nav, ul:hover a:active {
+  color: white;
+  text-decoration: underline;
 }
 
 nav li {
   display: inline;
   margin-right: 25px;
-
 }
 
 ul {
   text-align: right;
 }
 
-.backblu {
-  height:150px;
+#backblu {
+  height: 200px;
+  width: 100%;
+}
+
+@media screen and (max-width: 899px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  #backblu {
+    height: 150px;
+  }
+
+  #profilepic {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  #profilepic {
+    width: 80%;
+  }
 }
 
 .profileimg {
-  justify-content: flex;
+  justify-content: center;
 }
 
 #profilepic {
@@ -64,59 +105,56 @@ ul {
   display: grid;
 }
 
-@media screen and (min-width: 900px) 
-{img 
-{
-  display: flex;
-  justify-content: center;
-}
+@media screen and (max-width: 899px) {
+  img {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 #cool-subtitle h1 {
-  text-align: Right;
-  font-size: 30pt;
+  text-align: right;
+  font-size: 1.5em;
 }
 
 #aboutmeP {
   margin: 10px;
   border-right: 50px;
   text-align: right;
-  font-size: 17pt;
-  block-size: 20rem; 
+  font-size: 1em;
+  block-size: 20rem;
   margin-left: 25rem;
   border-left-width: 2px;
-  border: 1px solid navy;
-  padding:10px;
-
+  border-left: 10px solid navy;
+  padding: 10px;
 }
 
- @media screen and (min-width: 900px)
-{.flexbox-container
+@media screen and (max-width: 899px) {
+  #aboutmeP {
+    margin-left: 0;
+    font-size: 0.8em;
+    text-align: left;
+  }
 
-{
-  padding: 1rem 3rem
+  .flexbox-container {
+    padding: 1rem 1rem;
+  }
 }
-}
-
-.flexbox-container .flexbox-item .flexbox-item-1
-{  margin: 10px;
-  border-right: 50px;
-  text-align: right;
-  font-size: 17pt;
-  block-size: 20rem; 
-  margin-left: 25rem;
-  border-left-width: 2px;
-  border: 1px solid navy;
-  padding:10px;}
 
 .flexbox-container {
   display: flex;
-  justify-content: Flex-end;
+  flex-wrap: wrap;
+  /* justify-content: flex-end; */
   margin-top: 50px;
   margin-left: 30px;
+  margin-left: 25rem;
+  border-left-width: 2px;
+  border-left: 10px solid navy;
+  gap: 10px
 }
 
 .flexbox-item {
+flex-wrap: wrap;
   width: 300px;
   margin: 10px;
   border: 3px solid #333;
@@ -125,95 +163,79 @@ ul {
 
 .flexbox-item-1 {
   min-height: 400px;
-  width: 625px;
+
+  width: 400px;
   margin: 10px;
+  padding:10%;
   border: 3px;
-  background-image: url("./assets/");
-}
-   
-
-.flexbox-item-2 {
-  min-width: none;
+  background-image: url("https://djdevjams.github.io/Horiseon_Refactor/");
 }
 
-.flexbox-item-3 {
+.flexbox-item-2, .flexbox-item-3, .flexbox-item-4, .flexbox-item-5 {
   min-height: 300px;
 }
 
-.flexbox-item-4 {
-  min-height: 300px;
-}
-
-.flexbox-item-5 {
-  min-height: 300px;
-}
-
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 899px) {
   .flexbox-container {
-    min-width: 600px;
     flex-direction: column;
-     align-items: center;
-  }
-}
-  .left {
-    display: inline-block;
+    align-items: center;
+    margin-left: 0;
   }
 
-
-  /* aside {
-    width: 40%;
-    padding-left: 0.5rem;
-    margin-left: 0.5rem;
-    float: left;
-    font-style: italic;
-    display: inline-block;
-  } */
-
-
-  .sect .chap {
-    display: block;
-    width: 50%;
-    font-size: 50pt;
+  .flexbox-item {
+    width: 90%;
   }
+}
 
-  aside {
-    font-size: 20pt;
-    display: inline;
-    border-right: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    margin-bottom: 10px;
+@media screen and (max-width: 599px) {
+  .flexbox-item {
+    width: 100%;
   }
-.contactparts
-{
-  display:inline-flex; 
 }
 
-
-.contacts 
-{
-margin:20px;
-position:center;
-
+.left {
+  display: inline-block;
 }
 
-
-li
-{
-list-style-type: none;
-padding-top: 10px;
-margin-right: 30px;
-text-align: center;
-/* display: inline */
+.sect .chap {
+  display: block;
+  width: 100%;
+  font-size: 1.5em;
 }
 
+aside {
+  font-size: 1em;
+  display: inline;
+  border-right: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* .contactparts {
+  display: center;
+} */
+
+/* .contacts {
+  margin: 20px;
+  position: center;
+} */
+/* 
 li {
-display: inline;
-margin-right: 25px;
+  list-style-type: none;
+  padding-top: 10px;
+  margin-right: 30px;
+  text-align: center;
+} */
 
-}
+/* li {
+  display: inline;
+  margin-right: 25px;
+} */
 
-ul {
-text-align: right;
+.contactparts {
+
+  list-style-type: none;
+  background-color:rgb(33, 54, 98);
+  color:white;
+
 }
